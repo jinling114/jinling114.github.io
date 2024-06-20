@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JL Corporation</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="Maggie.png">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js" type="text/javascript"></script>
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="logo.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>JL Corporation Home</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>About JL Corporation</p>
+  </a>
+  <a href="#products" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>Our Products & Companies</p>
+  </a>
+  <!-- <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a> -->
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">JL Home</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">About JL</a>
+    <a href="#products" class="w3-bar-item w3-button" style="width:25% !important">JL Products</a>
+
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">JL Corporation</span></h1>
+    <p>We lead the future</p>
+    <img src="logo.png" alt="logo" class="w3-image">
+    <br><br><br>
+    <button onclick="switchLogo()" style="background-color: #ff69b4; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Don't Click Me</button>
+
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About JL Corporation</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <h4 class="w3-padding-24 w3-text-light-grey">Overview</h4>
+    <big>
+      <p>JL Corporation is a dynamic and forward-looking multi-business global corporation, dedicated to shaping a better future for all. We believe that improvement comes with innovation, communication, collaboration, and commitment to impact the world positively. With various businesses and fields of industry, we have a shared vision to aid individual development, empower communities, and support progress globally. Join us as we embark on a mission to achieve the impossible and leave our marks of success in history and the future.</p></big>
+    <h4 class="w3-padding-24 w3-text-light-grey">History</h4>
+    <big>
+      <p>The JinLing Corporation (JL) , established in year 2024, is a corporation with more than 30 companies providing a wide range of products and services to all people. Founded by a team of five BOYS (Gavin Yu, Gavin Lee, Chingsui Hu, Max Pan, Andrew Wang), the current CEO of JL, Maggie Jin, is continuing to approve on the innovational products for a brighter future of human society. To learn more about the JinLing Corporation, please contact us maggiejinapproved114514@outlook.com.</p>
+    </big>
+
+    <br>
+    <h4 class="w3-text-light-grey">We have:</h4>
+
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">69+</span><br>
+        金门学子
+
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">20+</span><br>
+        Brehs
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1145+</span><br>
+        Jinteresting Questions
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Whiteboard Erasors
+      </div>
+    </div>
+
+    <!-- <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Be Gay
+    </button> -->
+
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Our Services</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">JinLing Math Basic</li>
+          <li class="w3-padding-16">4 hours per week (5 lessons)</li>
+          <li class="w3-padding-16">Good Study Environment</li>
+          <li class="w3-padding-16">S level questions</li>
+          <li class="w3-padding-16">If you get it wrong no comments</li>
+          <li class="w3-padding-16">
+            <h2>$ 69</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">JinLing Math Pro</li>
+          <li class="w3-padding-16">69 hours every day (8 days a week)</li>
+          <li class="w3-padding-16">Chingsui Singing 24·7</li>
+          <li class="w3-padding-16">H level jin-teresting questions</li>
+          <li class="w3-padding-16">If you got it wrong GET OUT!</li>
+          <li class="w3-padding-16">
+
+            <h2>$ 1,145,141,919,810</h2>
+
+            <span class="w3-opacity">per microsecond</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+
+
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="products">
+    <h2 class="w3-text-light-grey">JL Companies</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0px">
+      <div class="w3-half">
+        <img src="comp/1.png" style="width:150px">
+        <img src="comp/2.png" style="width:150px">
+        <img src="comp/3.png" style="width:150px">
+        <img src="comp/4.png" style="width:150px">
+        <img src="comp/5.png" style="width:150px">
+        <img src="comp/6.png" style="width:150px">
+        <img src="comp/7.png" style="width:150px">
+        <img src="comp/8.png" style="width:150px">
+        <img src="comp/9.png" style="width:150px">
+        <img src="comp/10.png" style="width:150px">
+        <img src="comp/11.png" style="width:150px">
+        <img src="comp/12.png" style="width:150px">
+        <img src="comp/13.png" style="width:150px">
+        <img src="comp/27.png" style="width:150px">
+        <img src="comp/30.png" style="width:150px">
+        <img src="comp/31.png" style="width:150px">
+        <img src="comp/32.png" style="width:150px">
+
+      </div>
+
+      <div class="w3-half">
+        <img src="comp/14.png" style="width:150px">
+        <img src="comp/15.png" style="width:150px">
+        <img src="comp/16.png" style="width:150px">
+        <img src="comp/17.png" style="width:150px">
+        <img src="comp/18.png" style="width:150px">
+        <img src="comp/19.png" style="width:150px">
+        <img src="comp/20.png" style="width:150px">
+        <img src="comp/21.png" style="width:150px">
+        <img src="comp/22.png" style="width:150px">
+        <img src="comp/23.png" style="width:150px">
+        <img src="comp/24.png" style="width:150px">
+        <img src="comp/25.png" style="width:150px">
+        <img src="comp/26.png" style="width:150px">
+        <img src="comp/28.png" style="width:150px">
+        <img src="comp/29.png" style="width:150px">
+
+
+
+      </div>
+    <!-- End photo grid -->
+    </div>
+    <br><br>
+    <h2 class="w3-text-light-grey">Donate to JL Corporation</h2>
+
+    <hr style="width:200px" class="w3-opacity">
+    <h2>Our Policy</h2>
+    <h4>While JL Corporation is an 100% non-profit organization, in order to develop more products and services, we'll need fund support.
+      You can be ensured that all donations will not go to private or commercial businesses, and instead will be used as funds for future JL activities.
+      We value and appreciate every cent of your conscience.</h4>
+      <br>
+      <img src="scan.jpg" alt="Error" style="object-fit: cover; width: 80%; height: 80%;">
+  <!-- End Portfolio Section -->
+  </div>
+  <!-- Testimonials -->
+  <div>
+
+
+  <h3 class="w3-padding-24 w3-text-light-grey">Sponsorships</h3>
+  <img src="ga.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:100px">
+  <p><span class="w3-large w3-margin-right">Ga</span><br>Main Developer of JinLing114 Website</p>
+  <br>
+
+
+  <!-- End About Section -->
+  </div>
+
+
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+  <!-- End footer -->
+  </footer>
+  <hr>
+<div style="color:white;">
+  <h1>JL Corporation</h1>
+  <p>989 Baise Road</p>
+  <p>Xuhui District, Shanghai, Jerman Reich</p>
+  <p><b>Email:</b><br><i>maggiejinapproved114514@outlook.com</i></p>
+  <p><b>Phone:</b><br><i> + 114 514 1919 810</i></p>
+  <br><br><br>
+  <p>&copy; 2024 JL Corporation. All rights reserved.</p>
+</div>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
